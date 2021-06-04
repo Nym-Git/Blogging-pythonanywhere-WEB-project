@@ -3,14 +3,14 @@
 Bloging instructions for HTML Blogers:
 --------------------------------------------------------------------------------------------------------------------------------------
 
-Left side image code:
+Left side image code:               warnning do not use .. (doot)
 ----------------------
-  <img id="imag" class="img-thumbnail" src="https://image-link.jpeg" alt="Avatar">
+  <..img id="imag" class="img-thumbnail" src="https://image-link.jpeg" alt="Avatar">
   
   
 Right side image code:
 ----------------------
-  <img id="imag-right" class="img-thumbnail" src="https://image-link.jpeg" alt="Avatar">
+  <..img id="imag-right" class="img-thumbnail" src="https://image-link.jpeg" alt="Avatar">
 
 
 Right side Video code:              ( copy the indent code from YouTube and add----->  id="video" class="img-thumbnail"  )
