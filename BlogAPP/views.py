@@ -20,8 +20,9 @@ def indexVIEW(request):
 
   else:
     form = InstructionFORMS()
-
-  context = {'form': form}
+  
+  htmlcode = True
+  context = {'form': form, 'git':htmlcode}
   return render(request,'index.html', context)
 
 
