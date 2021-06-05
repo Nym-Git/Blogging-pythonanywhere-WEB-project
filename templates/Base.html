@@ -71,9 +71,6 @@
     {% for item in manu %}
       <a href="{% url 'Filter_Display' item.Category_Field %}">{{ item.Category_Field }}</a>
     {% endfor %}
-    {% for item in manu %}
-      <a href="{% url 'Filter_Display' item.Category_Field %}">{{ item.Category_Field }}</a>
-    {% endfor %}
     {% if git %}
       <a href="https://github.com/Nym-Git/Blogging-pythonanywhere-WEB-project/blob/master/README.md"><i class="fa fa-github-square fa-3x social" style="color: white; border-color: red;"></i></a>
     {% endif %}
