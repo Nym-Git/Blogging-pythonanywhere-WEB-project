@@ -125,7 +125,7 @@ def detailsView(request, id):
 
 
 
-# Not using for NOW
+# using NOW
 def AdminView(request, id):
   POSTs_key = Instruction.objects.filter(id=id)
   Admin_POSTs = Instruction.objects.all().order_by('-id')
