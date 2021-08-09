@@ -26,7 +26,7 @@ SECRET_KEY = '-+gz=ghuf1)gvr#4loli$v@($=*yxt)h2&_st+$hqt865mf!1o'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1','epicblogging.herokuapp.com']
 
 
 # Application definition
